@@ -1,9 +1,7 @@
 # Project structure & formatting expectations
 
-<!-- My version of the doc an interviewer might hand over. Two uses:
-     1. They give you theirs → paste theirs into CLAUDE.md; that wins, ignore this.
-     2. They don't → this stands as-is, so structure is settled before the agent
-        invents its own. CLAUDE.md already points here. -->
+<!-- The standing conventions for this project. If a different set is supplied for a given
+     build, it goes in CLAUDE.md under "Their rules" and wins over this file. -->
 
 ## Structure
 

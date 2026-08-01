@@ -4,8 +4,8 @@ Timed build. Optimise for a working, demoable increment over completeness.
 
 ## Their rules
 
-<!-- PASTE the interviewer's instructions doc here, verbatim, before writing any code.
-     Theirs wins over anything in docs/INSTRUCTIONS.md. -->
+<!-- PASTE any supplied instructions doc here, verbatim, before writing any code.
+     A supplied doc wins over anything in docs/INSTRUCTIONS.md. -->
 
 _(nothing pasted yet — until something is here, `docs/INSTRUCTIONS.md` is the standard.
 Follow it rather than inventing conventions.)_
@@ -16,7 +16,7 @@ Follow it rather than inventing conventions.)_
 build criteria in the order listed. Don't build past it — out-of-scope ideas go in its
 Cut List, not the code.
 
-Don't add a dependency without asking; each one is something to justify out loud.
+Don't add a dependency without asking; each one is a decision that has to be justified.
 
 ## The gate
 
@@ -25,7 +25,7 @@ Never report done on unverified code, and never weaken a test to make it pass.
 
 ## Surface your decisions
 
-I am being assessed on understanding this code, so silent choices cost me.
+I have to explain and defend every line of this code, so silent choices cost me.
 
 - Name the trade-off when you pick between real alternatives, in one line, as you make it.
 - Say when you're unsure or guessing rather than committing quietly.
