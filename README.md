@@ -1,4 +1,8 @@
-# Starter
+# Interview starter
+
+A prepared workspace for timed, AI-assisted coding rounds: a running app, a green test
+gate, and the conventions written down, so the round is spent on the problem rather than
+on scaffolding.
 
 Vite 8 · React 19 · TypeScript 6 · Tailwind 4 · vitest 4 + React Testing Library.
 
@@ -33,13 +37,16 @@ src/
   main.tsx           root render
   vitest.setup.ts    jest-dom matchers
 docs/
-  REQUIREMENTS.md    scope, acceptance criteria, cut list
-  INSTRUCTIONS.md    structure, formatting and code conventions
-CLAUDE.md            agent brief; points at docs/
+  REQUIREMENTS.md    the brief — the only file edited by hand during a round
+  DECISIONS.md       agent-appended log of choices and their rejected alternatives
+CLAUDE.md            agent brief: what's graded, the round's phases, conventions
 ```
 
-There are no `components/`, `hooks/`, or `lib/` directories yet — `docs/INSTRUCTIONS.md`
-documents where each belongs, and they get created when something needs them.
+There are no `components/`, `hooks/`, or `lib/` directories yet — `CLAUDE.md` documents
+where each belongs, and they get created when something needs them.
+
+A round is worked on its own branch, so resetting for the next one is `git switch main`
+rather than emptying the two `docs/` files by hand.
 
 ## Notes
 
